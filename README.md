@@ -5,7 +5,8 @@ Python scripts for use with Google's APIs
 
 2. Turn on the API SDK.
 
-3. Create an API service account, with the relevant scopes for directory access
+3. Create an API service account, with the relevant scopes for directory access. You need the following scope for this script:
+https://www.googleapis.com/auth/admin.directory.device.chromeos
 
 4. Make sure the Google API client for Python is installed on your computer:
 
